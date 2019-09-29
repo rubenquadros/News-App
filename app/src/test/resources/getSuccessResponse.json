@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "News18.com"
+      },
+      "author": "News18.com",
+      "title": "Chidambaram Avoids ED Arrest Till Tomorrow But Fails to Evade CBI as Delhi Court Extends Custody by 5 Day... - News18",
+      "description": "The CBI sought extension of Chidambaram's custody by four days to confront him with certain e-mails and to unearth larger conspiracy.",
+      "url": "https://www.news18.com/news/india/chidambaram-case-live-updates-latest-news-cbi-arrest-inx-media-property-2283873.html",
+      "urlToImage": "https://images.news18.com/ibnlive/uploads/2019/08/Chiddu.jpg",
+      "publishedAt": "2019-08-26T14:34:00Z",
+      "content": "New Delhi: In a major setback to Congress leader and former finance minister P Chidambaram, the Supreme Court on Monday rejected his petition against the Delhi High Court verdict which had dismissed his anticipatory bail plea in a corruption case lodged by th… [+5696 chars]"
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "Times Of India",
+      "title": "Prepared to thwart JeM's underwater plans: Indian Navy - Times of India",
+      "description": "India News: PUNE: An \"underwater wing\" of Pakistan- based terror group Jaish-e-Mohammed (JeM) is training people to carry out attacks but the Indian Navy is fully.",
+      "url": "https://timesofindia.indiatimes.com/india/prepared-to-thwart-jems-underwater-plans-indian-navy/articleshow/70844700.cms",
+      "urlToImage": "https://static.toiimg.com/thumb/msid-70844880,width-1070,height-580,imgsize-115591,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+      "publishedAt": "2019-08-26T13:46:48Z",
+      "content": "Copyright © 2019 Bennett, Coleman &amp; Co. Ltd. All rights reserved. For reprint rights: Times Syndication Service"
+    }
+  ]
+}

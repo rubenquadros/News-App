@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorToolbar">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBackground">#464646</color>
+    <color name="colorContent">#f2f2f2</color>
+    <color name="colorAuthor">#bababa</color>
+    <color name="colorTranslucent">#ddffffff</color>
+</resources>

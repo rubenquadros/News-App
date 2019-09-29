@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="24dp"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="10dp"
+    android:layout_height="300dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/background"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/robotoslab_bold"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="@dimen/author_font"
+        android:textColor="@color/colorAuthor"
+        android:text="@string/headlines" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/background"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="12dp"
+        android:layout_toEndOf="@+id/author"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/robotoslab_light"
+        android:textSize="@dimen/author_font"
+        android:textColor="@color/colorAuthor"
+        android:text="@string/headlines" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/author"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="start"
+        android:fontFamily="@font/robotoslab_regular"
+        android:textAlignment="viewStart"
+        android:textSize="@dimen/content_font"
+        android:textColor="@color/colorContent"
+        android:text="@string/headlines" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

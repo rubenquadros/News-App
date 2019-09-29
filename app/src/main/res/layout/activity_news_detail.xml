@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.NewsDetailActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ContentDescription" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/transparent"
+        android:theme="@style/ThemeActionBar"
+        app:popupTheme="@style/ThemeActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/descriptionTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/robotoslab_regular"
+        android:textColor="@color/colorAuthor"
+        android:textSize="@dimen/description_font"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/sourceTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/robotoslab_regular"
+        android:textColor="@color/colorContent"
+        android:textSize="@dimen/content_font"
+        app:layout_constraintBottom_toTopOf="@+id/descriptionTv"
+        app:layout_constraintStart_toStartOf="@+id/descriptionTv" />
+
+    <TextView
+        android:id="@+id/dateTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/robotoslab_regular"
+        android:textColor="@color/colorContent"
+        android:textSize="@dimen/content_font"
+        app:layout_constraintBottom_toTopOf="@+id/descriptionTv"
+        app:layout_constraintEnd_toEndOf="@+id/descriptionTv" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="@font/robotoslab_bold"
+        android:textColor="@color/colorContent"
+        android:textSize="@dimen/toolbar_font"
+        app:layout_constraintBottom_toTopOf="@+id/sourceTv"
+        app:layout_constraintEnd_toEndOf="@+id/dateTv"
+        app:layout_constraintStart_toStartOf="@+id/sourceTv" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
